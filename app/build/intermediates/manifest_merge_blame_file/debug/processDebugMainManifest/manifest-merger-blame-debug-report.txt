@@ -1,0 +1,82 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.expensetracker"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] C:\Users\user\.gradle\caches\8.11.1\transforms\531a95774b29046aeed5389b706b1311\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.expensetracker.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] C:\Users\user\.gradle\caches\8.11.1\transforms\531a95774b29046aeed5389b706b1311\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] C:\Users\user\.gradle\caches\8.11.1\transforms\531a95774b29046aeed5389b706b1311\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.expensetracker.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] C:\Users\user\.gradle\caches\8.11.1\transforms\531a95774b29046aeed5389b706b1311\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] C:\Users\user\.gradle\caches\8.11.1\transforms\531a95774b29046aeed5389b706b1311\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->C:\Users\user\EXPENSE TRACKER APP\app\src\main\AndroidManifest.xml:4:5-18:19
+18        android:allowBackup="true"
+18-->C:\Users\user\EXPENSE TRACKER APP\app\src\main\AndroidManifest.xml:5:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] C:\Users\user\.gradle\caches\8.11.1\transforms\531a95774b29046aeed5389b706b1311\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+20        android:debuggable="true"
+21        android:extractNativeLibs="true"
+22        android:label="Expense Tracker"
+22-->C:\Users\user\EXPENSE TRACKER APP\app\src\main\AndroidManifest.xml:6:9-40
+23        android:testOnly="true"
+24        android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
+24-->C:\Users\user\EXPENSE TRACKER APP\app\src\main\AndroidManifest.xml:7:9-67
+25        <activity
+25-->C:\Users\user\EXPENSE TRACKER APP\app\src\main\AndroidManifest.xml:9:9-14:20
+26            android:name="com.example.expensetracker.MainActivity"
+26-->C:\Users\user\EXPENSE TRACKER APP\app\src\main\AndroidManifest.xml:9:19-47
+27            android:exported="true" >
+27-->C:\Users\user\EXPENSE TRACKER APP\app\src\main\AndroidManifest.xml:9:48-71
+28            <intent-filter>
+28-->C:\Users\user\EXPENSE TRACKER APP\app\src\main\AndroidManifest.xml:10:13-13:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->C:\Users\user\EXPENSE TRACKER APP\app\src\main\AndroidManifest.xml:11:17-69
+29-->C:\Users\user\EXPENSE TRACKER APP\app\src\main\AndroidManifest.xml:11:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->C:\Users\user\EXPENSE TRACKER APP\app\src\main\AndroidManifest.xml:12:17-77
+31-->C:\Users\user\EXPENSE TRACKER APP\app\src\main\AndroidManifest.xml:12:27-74
+32            </intent-filter>
+33        </activity>
+34        <activity android:name="com.example.expensetracker.AddExpenseActivity" />
+34-->C:\Users\user\EXPENSE TRACKER APP\app\src\main\AndroidManifest.xml:16:9-56
+34-->C:\Users\user\EXPENSE TRACKER APP\app\src\main\AndroidManifest.xml:16:19-53
+35        <activity android:name="com.example.expensetracker.ChartActivity" />
+35-->C:\Users\user\EXPENSE TRACKER APP\app\src\main\AndroidManifest.xml:17:9-51
+35-->C:\Users\user\EXPENSE TRACKER APP\app\src\main\AndroidManifest.xml:17:19-48
+36
+37        <provider
+37-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\8.11.1\transforms\6452d0624764d60f02ab1682ac6d3e02\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+38            android:name="androidx.startup.InitializationProvider"
+38-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\8.11.1\transforms\6452d0624764d60f02ab1682ac6d3e02\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+39            android:authorities="com.example.expensetracker.androidx-startup"
+39-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\8.11.1\transforms\6452d0624764d60f02ab1682ac6d3e02\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+40            android:exported="false" >
+40-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\8.11.1\transforms\6452d0624764d60f02ab1682ac6d3e02\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+41            <meta-data
+41-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\8.11.1\transforms\6452d0624764d60f02ab1682ac6d3e02\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+42                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+42-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\8.11.1\transforms\6452d0624764d60f02ab1682ac6d3e02\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+43                android:value="androidx.startup" />
+43-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\8.11.1\transforms\6452d0624764d60f02ab1682ac6d3e02\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+44            <meta-data
+44-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\user\.gradle\caches\8.11.1\transforms\d81175342ef94ed46c6ac43577727120\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+45                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+45-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\user\.gradle\caches\8.11.1\transforms\d81175342ef94ed46c6ac43577727120\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+46                android:value="androidx.startup" />
+46-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\user\.gradle\caches\8.11.1\transforms\d81175342ef94ed46c6ac43577727120\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+47        </provider>
+48    </application>
+49
+50</manifest>

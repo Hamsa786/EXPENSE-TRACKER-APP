@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.example.expensetracker.app-debug-23:/layout_expense_item.xml.flat",
+        "source": "com.example.expensetracker.app-main-25:/layout/expense_item.xml"
+    },
+    {
+        "merged": "com.example.expensetracker.app-debug-23:/layout_activity_main.xml.flat",
+        "source": "com.example.expensetracker.app-main-25:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.expensetracker.app-debug-23:/layout_activity_chart.xml.flat",
+        "source": "com.example.expensetracker.app-main-25:/layout/activity_chart.xml"
+    },
+    {
+        "merged": "com.example.expensetracker.app-debug-23:/layout_activity_add_expense.xml.flat",
+        "source": "com.example.expensetracker.app-main-25:/layout/activity_add_expense.xml"
+    }
+]
